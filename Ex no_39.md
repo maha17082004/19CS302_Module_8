@@ -1,25 +1,35 @@
 # EX 39 C program to find sum of digits.
-## DATE:
+## DATE: 07-05-2025
 ## AIM:
 To write a C program to find sum of digits.
 
-## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+## Algorithm:
+1. Start.
+2. Define a variables.
+3. Write a program to print the English word corresponding to the given number.
+4. Read the value using scanf.
+5. Ask the user to make an input.
+6. Print out the answer.
+7. End.  
 
 ## Program:
+```c program
+#include<stdio.h>
+int main()
+{
+    int a,s,i,y=0;
+    scanf("%d",&a);
+    for(i=1;i<=5;i++)
+    {
+        s=a%10;
+        y=y+s;
+        a=a/10;
+    }
+    printf("%d",y);
+}
 ```
-/*
-C program to find sum of digits.
-Developed by: 
-RegisterNumber:  
-*/
-```
-
 ## Output:
+<img width="1127" height="167" alt="image" src="https://github.com/user-attachments/assets/775a7a22-549b-41ef-9dee-bda4467ee98a" />
 
 
 
